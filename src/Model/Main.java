@@ -1,5 +1,7 @@
 package Model;
-
+ /*
+Modifiaciones desde el pc
+*/
 
 import java.io.IOException;
 import javafx.application.Application;
@@ -32,10 +34,7 @@ public class Main extends Application {
         stage.show();
     }
     
-    
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         launch(args);
         
