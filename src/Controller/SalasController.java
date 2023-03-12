@@ -5,19 +5,12 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.stage.Stage;
 import Model.Main;
-import javafx.event.Event;
-import javafx.event.EventTarget;
 import javafx.scene.layout.GridPane;
 import Model.Sala;
-import Controller.Metodos;
 
 public class SalasController implements Initializable {
 

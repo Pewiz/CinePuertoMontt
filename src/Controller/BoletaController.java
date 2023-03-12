@@ -5,15 +5,12 @@ import Model.Main;
 import Model.Boleta;
 import java.io.IOException;
 import java.net.URL;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javax.swing.JOptionPane;
 
 public class BoletaController implements Initializable {
     
@@ -59,7 +56,6 @@ public class BoletaController implements Initializable {
     @FXML
     private void handleBtImprimirAction(ActionEvent event) throws IOException {
         method.ventaPorSala(numeroSala);
-        //JOptionPane.showMessageDialog(null, "IMPRIMIDO");
         cambioE.cambioEscena(event, "/View/interfazCatalogo.fxml");
     }
     
